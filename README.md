@@ -75,17 +75,27 @@ multiplicativeAverage([3, 5]);             // returns 7.5
 multiplicativeAverage([2, 5, 7, 11, 13]);  // returns 2002
 ```
 
-8. Write a function that takes an array of integers and returns a new array of integers with double the original values.
+8. Write a function that takes an array of numbers and returns a new array of numbers with the original values negated (make positive numbers negative and make negative numbers positive).
+
+Examples: 
+```
+negatedArray([3, 6, 8]);          // [-3, -6, -8]
+negatedArray([3.25, -2, 5.5]);    // [-3.25, 2, -5.5]
+negatedArray([-1, 4, -3]);        // [1, -4, 3]
+negatedArray([]);                 // []
+```
+
+9. Write a function that takes an array of numbers and returns a new array of numbers with double the original values.
 
 Examples: 
 ```
 doubleArray([3, 6, 8]);          // [6, 12, 16]
-doubleArray([3.25, 2, 5.5]);     // [6.5, 4, 11]
+doubleArray([3.25, -2, 5.5]);    // [6.5, -4, 11]
 doubleArray([-1, 4, -3]);        // [-2, 8, -6]
 doubleArray([]);                 // []
 ```
 
-9. Write a function that takes two array arguments, each containing a list of numbers, and returns a new array that contains the sum of each pair of numbers from the arguments that have the same index. You may assume that the arguments contain the same number of elements.
+10. Write a function that takes two array arguments, each containing a list of numbers, and returns a new array that contains the sum of each pair of numbers from the arguments that have the same index. You may assume that the arguments contain the same number of elements.
 
 Examples:
 ```
@@ -93,7 +103,7 @@ addList([3, 5, 7], [9, 10, 11]);         // returns [12, 15, 18]
 addList([5, 10, 15, 20], [1, 2, 3, 4]);  // returns [6, 12, 18, 24]
 ```
 
-10. Write a function that takes two array arguments, each containing a list of numbers, and returns a new array that contains the product of each pair of numbers from the arguments that have the same index. You may assume that the arguments contain the same number of elements.
+11. Write a function that takes two array arguments, each containing a list of numbers, and returns a new array that contains the product of each pair of numbers from the arguments that have the same index. You may assume that the arguments contain the same number of elements.
 
 Examples:
 ```
@@ -101,7 +111,7 @@ multiplyList([3, 5, 7], [9, 10, 11]);         // returns [27, 50, 77]
 multiplyList([5, 10, 15, 20], [1, 2, 3, 4]);  // returns [5, 20, 45, 80]
 ```
 
-11. Write a function that takes in a person object and returns an introduction message. This object argument will have two properties `name` and `age`. The returned string should be in the format `My name is ... I am ... years old.`.
+12. Write a function that takes in a person object and returns an introduction message. This object argument will have two properties `name` and `age`. The returned string should be in the format `My name is ... I am ... years old.`.
 
 Examples:
 ```
@@ -110,7 +120,7 @@ introducePerson({age: 30, name: 'Maya'});   // returns "My name is Maya. I am 30
 introducePerson({name: 'Reuben', age: 31}); // returns "My name is Reuben. I am 31 years old."
 ```
 
-12. Write a function that determines whether or not someone can vote. The only argument is an object that represents the person. That object has a property `age` that is a number which represents the person's age in years and a property `isCitizen` that is `true` if they are a citizen and `false` if they are not. The function should return `true` only if the person is a citizen and is 18 years or older. Otherwise, it should return `false`.
+13. Write a function that determines whether or not someone can vote. The only argument is an object that represents the person. That object has a property `age` that is a number which represents the person's age in years and a property `isCitizen` that is `true` if they are a citizen and `false` if they are not. The function should return `true` only if the person is a citizen and is 18 years or older. Otherwise, it should return `false`.
 
 Examples:
 ```
