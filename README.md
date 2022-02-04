@@ -77,11 +77,11 @@ multiplyList([3, 5, 7], [9, 10, 11]);         // returns [27, 50, 77]
 multiplyList([5, 10, 15, 20], [1, 2, 3, 4]);  // returns [5, 20, 45, 80]
 ```
 
-8. Write a function 
+8. Write a function that takes in a person object and returns an introduction message. This object argument will have two properties `name` and `age`. The returned string should be in the format `My name is ... I am ... years old.`.
 
 Examples:
 ```
-introducePerson({name: 'Ann', age: 29});    // returns "My name is Ann. I am 29."
-introducePerson({age: 30, name: 'Maya'});   // returns "My name is Maya. I am 30."
-introducePerson({name: 'Reuben', age: 31}); // returns "My name is Reuben. I am 31."
+introducePerson({name: 'Ann', age: 29});    // returns "My name is Ann. I am 29 years old."
+introducePerson({age: 30, name: 'Maya'});   // returns "My name is Maya. I am 30 years old."
+introducePerson({name: 'Reuben', age: 31}); // returns "My name is Reuben. I am 31 years old."
 ```
