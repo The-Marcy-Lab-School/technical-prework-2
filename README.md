@@ -3,7 +3,7 @@
 ### Directions 
 You will be applying what you've learned about JavaScript by implementing various functions. This assignment will demonstrate your code fluency and problem-solving abilities.
 
-0. Open up [this Repl.it](https://replit.com/@AnnDuong1/MarcyLabPreWork1)in a new tab. Once you open this Repl.it in a new tab, make a personal copy by forking. You should see a blue button in the top right corner that says **Fork repl**. Click on it!
+0. Open up [this Repl.it](https://replit.com/@AnnDuong1/MarcyLabPreWork1) in a new tab. Once you open this Repl.it in a new tab, make a personal copy by forking. You should see a blue button in the top right corner that says **Fork repl**. Click on it!
 1. Once the Repl.it has been forked, you will write all your code in the `index.js` file.
 2. The function signatures have already been created for you. You only need to write the body of each function.
 3. Do not change the names of the functions. However, you can change the name of the function _parameters_ if you'd like. 
