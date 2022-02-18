@@ -1,4 +1,4 @@
-# JavaScript Prework Problem Set 0-1
+# JavaScript Prework Problem Set Prework-1
 
 ### Directions 
 You will be applying what you've learned about JavaScript by implementing various functions. This assignment will demonstrate your code fluency and problem-solving abilities.
