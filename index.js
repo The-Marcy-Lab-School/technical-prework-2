@@ -26,10 +26,6 @@ function multiplicativeAverage(numbers){
   return 
 }
 
-function addList(numbers){
-  return 
-}
-
 function negatedArray(numbers){
   return 
 }
@@ -38,8 +34,12 @@ function doubleArray(numbers){
   return 
 }
 
+function addList(arr1, arr2){
+  return 
+}
+
 function multiplyList(arr1, arr2){
-  return
+  return 
 }
 
 function introducePerson(person){
@@ -58,9 +58,9 @@ module.exports = {
   sum,
   average,
   multiplicativeAverage,
-  addList,
   negatedArray,
   doubleArray,
+  addList,
   multiplyList,
   introducePerson,
   canVote
