@@ -1,73 +1,53 @@
 function firstElement(array){
-  return array[0]
+  return 
 }
 
 function lastElement(array){
-  return array[array.length - 1]
+  return 
 }
 
 function arrayLength(array){
-  return array.length
+  return 
 }
 
 function sequence(num){
-  const array = []
-  for(let i = 1; i <= num; i++){
-    array.push(i)
-  }
-  return array
+  return 
 }
 
 function sum(numbers){
-  let total = 0
-  for(let i = 0; i < numbers.length; i++){
-    total += numbers[i]
-  }
-  return total
+  return 
 }
 
 function average(numbers){
-  return sum(numbers) / numbers.length
+  return 
 }
 
 function multiplicativeAverage(numbers){
-  let total = 1
-  for(let i = 0; i < numbers.length; i++){
-    total *= numbers[i]
-  }
-  return total / numbers.length
+  return 
 }
 
 function negatedArray(numbers){
-  return numbers.map(num => -num)
+  return 
 }
 
 function doubleArray(numbers){
-  return numbers.map(num => num * 2)
+  return 
 }
 
 function addList(arr1, arr2){
-  const array = []
-  for(let i = 0; i < arr1.length; i++){
-    array.push(arr1[i] + arr2[i])
-  }
-  return array
+  return 
 }
 
 function multiplyList(arr1, arr2){
-  const array = []
-  for(let i = 0; i < arr1.length; i++){
-    array.push(arr1[i] * arr2[i])
-  }
-  return array
+  return 
 }
 
 function introducePerson(person){
-  return `My name is ${person.name}. I am ${person.age} years old.`
+  return 
 }
 
 function canVote(person){
-  return person.isCitizen && person.age >=18
+  return 
 }
 
 module.exports = {
