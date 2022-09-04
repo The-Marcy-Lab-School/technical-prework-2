@@ -108,7 +108,7 @@ test('multiplyList function works', () => {
   expect(multiplyList([1, 1, 1, 1], [1, 2, 3, 4])).toEqual([1, 2, 3, 4]);
 });
 
-test('introducePerson function works', () => {
+test('introducePerson function matches exactly', () => {
   expect(introducePerson({name: 'Ann', age: 29})).toBe("My name is Ann. I am 29 years old.");
   expect(introducePerson({age: 30, name: 'Maya'})).toBe("My name is Maya. I am 30 years old.");
   expect(introducePerson({name: 'Reuben', age: 31})).toBe("My name is Reuben. I am 31 years old.");
