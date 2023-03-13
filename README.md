@@ -57,6 +57,7 @@ Examples:
 sum([6, 7, 8]);         // 21
 sum([-100, 2, 1]);      // -97
 sum([1.0001, 2, 3]);    // 6.0001
+sum([]);                // 0
 ```
 
 6. Write an average function that takes an array of integers as input, adds all of the integers together, divides the result by the number of entries in the array, and returns the result as a number.
