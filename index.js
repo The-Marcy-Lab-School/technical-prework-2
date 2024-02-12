@@ -1,52 +1,52 @@
-function firstElement(array){
+const firstElement = (array) => {
   return 
 }
 
-function lastElement(array){
+const lastElement = (array) => {
   return 
 }
 
-function arrayLength(array){
+const arrayLength = (array) => {
   return 
 }
 
-function sequence(num){
+const sequence = (num) => {
   return 
 }
 
-function sum(numbers){
+const sum = (numbers) => {
   return 
 }
 
-function average(numbers){
+const average = (numbers) => {
   return 
 }
 
-function multiplicativeAverage(numbers){
+const multiplicativeAverage = (numbers) => {
   return 
 }
 
-function negatedArray(numbers){
+const negatedArray = (numbers) => {
   return 
 }
 
-function doubleArray(numbers){
+const doubleArray = (numbers) => {
   return 
 }
 
-function addList(arr1, arr2){
+const addList = (arr1, arr2) => {
   return 
 }
 
-function multiplyList(arr1, arr2){
+const multiplyList = (arr1, arr2) => {
   return 
 }
 
-function introducePerson(person){
+const introducePerson = (person) => {
   return 
 }
 
-function canVote(person){
+const canVote = (person) => {
   return 
 }
 
